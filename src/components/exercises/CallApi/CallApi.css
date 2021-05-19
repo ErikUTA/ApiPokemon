@@ -1,0 +1,40 @@
+.button {
+    background-color: #61dafb;
+    color: black;
+    border-radius: 0%;
+    height: 40px;
+    width: 100px;    
+}
+
+.button:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #089bc4;        
+    transform: translate(5px, 5px);
+    transition: all 0.3s;
+}
+
+.image {
+    height: 200px;
+    width: 305px;  
+    display: flex;
+    justify-content: center;    
+}
+
+.img {
+    height: 200px;
+    width: 200px;  
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px -1px 5px 6px rgba(0,0,0,0.65);
+    -moz-box-shadow: inset 0px -1px 5px 6px rgba(0,0,0,0.65);
+    box-shadow: inset 0px -1px 5px 6px rgba(0,0,0,0.65);
+}
+
+.div {    
+    display: flex;
+    justify-content: center;    
+    padding: 0%;
+    margin: 3%;    
+}
